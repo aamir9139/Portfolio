@@ -37,6 +37,25 @@ li{
 	font-family: "EB Garamond";
 }
 
+
+
+.big-hi{
+	font-family: "Roboto";
+	font-size:30vw;
+	font-weight: bolder;
+	margin: auto;
+
+}
+.intro-text{
+	font-family: "Raleway";
+	font-size: 1rem;
+	font-weight: 100;
+	line-height: 160%;
+	margin:auto;
+
+}
+
+
 h2{
 	font-family: "Roboto";
 	font-size:3.5rem;
@@ -62,6 +81,16 @@ p{
 	font-size: 1rem;
 	font-weight: 100;
 	line-height: 160%;
+
+}
+
+.overview-text{
+	font-family: "Raleway";
+	font-size: 1rem;
+	font-weight: 100;
+	line-height: 80%;
+	padding-top:6px;
+
 
 }
 
@@ -95,14 +124,36 @@ p{
 }
 
 .content-images{
-	display:block;
+	/* display:block;
 	margin:auto;
 	background-color: grey;
 	width:500px;
 	height:250px;
 	padding:1rem;
-	margin-bottom:1rem;
+	margin-bottom:1rem; */
+	display:block;
+	margin:auto;
+	background-color: red;
+	min-width: 80vw;
+	max-width: 80vw;
+	min-height: 50vh;
+	padding:1rem;
+	/* margin:5vh 10vw; */
 }
+
+.content-images-hero{
+	display:block;
+	margin:auto;
+	background-color: grey;
+	min-width: 60vw;
+	max-width: 80vw;
+	min-height: 50vh;
+	padding:1rem;
+	margin:5vh 10vw;
+	margin-top:2rem;
+}
+
+
 .images{
 	margin:auto;
 	max-width: 100%;
@@ -146,6 +197,7 @@ header{
   /* padding:0.5rem 8.9%; */
   font-size:1.5rem;
   background-color:black;
+	padding-top:.5rem;
 }
 
 .home-button{
@@ -185,14 +237,18 @@ header{
   background-color: #45A2B7;
   color: white;
 }
+a:hover{
+  background-color: #45A2B7;
+  color: white;
+}
 
 .nav-grouping{
 	margin-left:3.5rem;
 	padding-top:2rem;
 	padding-bottom:1rem;
-
-	display: flex;
-	padding: ;
+	/* display: flex; */
+	display:grid;
+	/* padding: ; */
 	padding-top: ;
 	margin-top: 3rem;
 	margin-right: 2rem;
@@ -202,3 +258,48 @@ header{
 	padding-top: 2.5rem;
 }
 /*  NAV BAR ENDS */
+
+.container-spacing{
+	margin-top: 5rem;
+}
+
+footer{
+
+	display:inline-block;
+  /* padding:0.5rem 8.9%; */
+  font-size:1.5rem;
+  background-color:black;
+	padding-top:4rem;
+
+}
+
+.container-overview{
+	display:block;
+	margin:auto;
+	background-color: grey;
+	min-width: 60vw;
+	max-width: 80vw;
+	min-height: 80vh;
+	padding:1rem;
+	margin:5vh 10vw;
+	margin-top:2rem;
+}
+
+
+.container-overview-images{
+	/* display:block;
+	margin:auto;
+	background-color: grey;
+	width:500px;
+	height:250px;
+	padding:1rem;
+	margin-bottom:1rem; */
+	display:block;
+
+	background-color: red;
+	/* min-width: 80vw; */
+	max-width: 50vw;
+	min-height: 50vh;
+	padding:1rem;
+	/* margin:5vh 10vw; */
+}

@@ -9,7 +9,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Portfolio </title>
-	  <link href="css/main.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,615;0,700;0,800;1,400;1,500;1,600;1,615;1,700;1,800&display=swap" rel="stylesheet">
@@ -22,12 +23,12 @@
 <body>
 
   <header>
-      <section class="nav-grouping">
+      <section class="col-grid-2 nav-grouping ">
           <nav>
-          <ul class="nav-container">
+          <ul class="nav-container" class="c-span-1">
           <li><a href="index.html" > Home</a> </li>
           <li><a href="wireframe.html" > Wireframe</a> </li>
-          <li><a href="copywriting.html" >Copywriting</a> </li>
+          <li><a href="styleguide.html" > Styleguide</a> </li>
           </ul>
           </nav>
       </section>
@@ -35,60 +36,38 @@
 
 
 <main>
+  <section class="content-images-hero">
+  </section>
 
+  <article>
+     <section class="col-grid-2">
+       <h1 class="big-hi" class="c-span-1">Hi!</h1>
+       <p class="c-span-1 intro-text">I am a third-year design student from SFU’s School of Interactive Art and Technology with a B.A. in Psychology from UBC. As a user-experience (UX) designer, this combination of design and psychology has allowed for a process that is very data-driven, analytical and user-centered. Additionally, it provides me with a unique sociological lens through which I am able to contextualize my work. In my career, I seek to create innovative digital solutions for often overlooked problems, in the hopes that I can make an impact on the lives of people. My current skillset includes technical knowledge in Adobe Suite, Sketch, Principle, Figma, HTML, CSS and JavaScript. This, in addition to my experience in roles such as project management, interaction design, UI design, content strategy, product strategy and UX research, have allowed to become an adaptable designer that is able to incorporate the needs of all stakeholders into the work that I do. </p>
+     </section>
+  </article>
 
-         <article class="content">
-           <!-- H1 -->
-           <section class="content-items">
-             <h2>HEADER 1</h2>
-             <p>
-                Roboto<br>
-                Black<br>
-                Size: 3.5rem;<br>
-                LH: Auto<br>
-                Kern: 0%<br>
-                Paragraph Spacing: 0
-                </p>
-             </section>
-             <!-- H2 -->
-             <section class="content-items">
-               <h3>HEADER 2</h3>
-               <p>
-                 Roboto<br>
-                 Regular<br>
-                 Size: 2rem<br>
-                 LH: Auto<br>
-                 Kern: 0%<br>
-                 Paragraph Spacing: 0
-                  </p>
-               </section>
-               <!-- Paragraph -->
-               <section class="content-items">
-                 <h3> Sample Paragraph </h3>
-                 <h4>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</h4>
-                 <p>
-                   Raleway<br>
-                   Regular<br>
-                   Size: 1rem<br>
-                   LH: 160% <br>
-                   Kern: 0%<br>
-                   Paragraph Spacing: 0<br>
-                    </p>
-                 </section>
+  <article class="container-spacing">
+    <section class="col-grid-2">
+     <h2 class="c-span-1">Project: Flare</h2>
+     <a href="project1.html"  <div  class="content-images r2 c1-2" ></div></a>
+      <p class="c-span-1 r3">Flare is an emergency smartphone application for people who find themselves abroad in countries that are in a state of conflict. It is meant to be used by people such as humanitarian workers and journalists, allowing them to have a system that is able to monitor their safety and relay their last known location to their embassy in case of an emergency. In addition to this, the phone is able to store any vital medical information that the user would need to let doctors or paramedic know in case they become unconscious.</p>
+      <p class="c-span-1 r3 overview-text"><b>Team:</b> Aamir Ali<br></br><b>Roles:</b> UX Designer, UI Designer, Interaction Designer, Copywriter<br></br><b> Length:</b> 7 days
+      </p>
+    </section>
+  </article>
 
-           </article>
+  <article class="container-spacing">
+    <section class="col-grid-2">
+     <h2 class="c-span-1">Project: Medimap</h2>
+    <a href="project1.html"  <div  class="content-images r2 c1-2" ></div></a>
+      <p class="c-span-1 r3"> This casestudy aimed to address the various of the Medimaps mobile application and to then make suggestions for improvements with hi-fidelity mockups. The main pitfall of the application was in its failure to meet the various stakeholder needs nor that of its userbase.
+      After addressing the issues with the application, new features were proposed to expand the capabilities of their service so that they could expand their userbase and prevent bankruptcy as the company was not generating much profit due to the single-use nature of the application.</p>
+      <p class="c-span-1 r3 overview-text"><b>Team:</b> Aamir Ali, Behfar Zamani, Sam Barnett<br></br><b>Roles:</b> UX Designer, UI Designer, Interaction Designer, Copywriter<br></br><b> Length:</b> 21 days
+      </p>
+    </section>
+  </article>
+  <div class="container-spacing"> </div>
 
-           <article class="content-buttons">
-              <section class="content-items">
-             <button type="button" name="button">Learn More</button>
-             </section>
-            </article>
-
-              <article class="content-images">
-                 <div class="content-items">
-                   <p class="image-caption">image size (base size): 500x250 pixels </p>
-                </div>
-               </article>
 
 
 
